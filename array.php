@@ -32,7 +32,10 @@ array_unshift() insere no inicio da fila
  */
 
 array_unshift($array, 'wellington');
-print_r($array);
+//print_r($array);
 
-
-
+/*array_key_exist('dois', $array)-> retorna 1(TRUE)
+ * array_key_search()
+ */
+$array_keys = array_keys($array);
+print_r($array_keys);
