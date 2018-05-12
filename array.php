@@ -24,3 +24,15 @@ array_push() -> coloca o elemento no final da pilha
 array_push($array, 'a');
 print_r($array);
 echo array_pop($array);
+
+/*
+ filas
+array_shift() retorna o primeiro elemento da fila e o elimina do array
+array_unshift() insere no inicio da fila
+ */
+
+array_unshift($array, 'wellington');
+print_r($array);
+
+
+
